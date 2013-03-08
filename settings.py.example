@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+
+"""
+    Settings for custom modules.
+"""
+
+from __future__ import unicode_literals
+
+
+# Settings for URI handler.
+
+URI_REGEXP = 'https?://\S+'
+
+# Settings for Hatena Bookmark Atom API.
+# See http://developer.hatena.ne.jp/ja/documents/bookmark/apis/atom (Japanese)
+
+HATENA_B_POST_URI = 'http://b.hatena.ne.jp/atom/post'
+HATENA_B_CLIENT_KEY = 'YOUR CLIENT KEY'
+HATENA_B_CLIENT_SECRET = 'YOUR CLIENT SECRET'
+HATENA_B_ACCESS_TOKEN = 'YOUR ACCESS TOKEN'
+HATENA_B_ACCESS_TOKEN_SECRET = 'YOUR ACCESS TOKEN SECRET'
+
+HATENA_B_POST_TEMPLATE = (
+    '<entry xmlns="http://purl.org/atom/ns#">'
+    '  <link rel="related" type="text/html" href="{uri}" />'
+    '  <summary type="text/plain">{summary}</summary>'
+    '</entry>'
+)
