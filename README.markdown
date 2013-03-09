@@ -47,9 +47,9 @@ For example, if you send the following to Skype chat Sevabot is currently in:
 
 def bad_factorial(n):
     if n <= 0:
-            return 1
-        else:
-            return n * bad_factorial(n - 1)
+        return 1
+    else:
+        return n * bad_factorial(n - 1)
 
 print bad_factorial(10)
 ```
