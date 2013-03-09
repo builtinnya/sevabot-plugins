@@ -15,11 +15,13 @@ Before installing the plugins, make sure you have installed the latest
 *development* version of [Sevabot].
 To install the plugins, clone this repository and:
 
+    ``` bash
     $ cd /path/to/sevabot-plugins
     $ cp settings.py.example settings.py
     $ <edit settings.py>
     $ ./install.sh /path/to/sevabot/
     $ <add "custom" to `MODULE_PATHS` in /path/to/sevabot/settings.py>
+    ```
 
 Above creates `custom/` directory in Sevabot directory and
 puts symbol links to the plugins and settings file in the `custom/`.
@@ -40,6 +42,7 @@ Evaluate code written in lightweight programming languages by using
 
 For example, if you send the following to Skype chat Sevabot is currently in:
 
+    ``` python
     #!py
 
     def bad_factorial(n):
@@ -48,7 +51,8 @@ For example, if you send the following to Skype chat Sevabot is currently in:
         else:
             return n * bad_factorial(n - 1)
 
-    print bad_factorial(10):
+    print bad_factorial(10)
+    ```
 
 Sevabot will return `3628800` to the chat.
 
