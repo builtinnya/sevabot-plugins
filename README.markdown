@@ -11,8 +11,8 @@ I hope this repository serves more meaningful examples for customizing Sevabot.
 
 ## Installation
 
-Before installing the plugins, make sure you have installed the latest
-*development* version of [Sevabot].
+Before installing the plugins, make sure you have installed [Sevabot]
+1.2 or higher.
 To install the plugins, clone this repository and:
 
 ``` bash
