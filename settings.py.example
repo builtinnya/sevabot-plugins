@@ -10,6 +10,10 @@ from __future__ import unicode_literals
 # Settings for URI handler.
 
 URI_REGEXP = 'https?://\S+'
+URI_ENABLE_NOTIFICATION = False
+URI_NOTIFICATION_FORMATS = ['I saw {uri} at {time}.']
+URI_HISTORY_LIMIT_PER_CHAT = 100
+
 
 # Settings for Hatena Bookmark Atom API.
 # See http://developer.hatena.ne.jp/ja/documents/bookmark/apis/atom (Japanese)

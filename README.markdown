@@ -63,6 +63,7 @@ For more information, send `#!` to the chat and see help text.
 Handle URIs in chat messages for various uses. Currently supported features are:
 
 - Bookmark the URIs through [Hatena Bookmark] (Japanese) API.
+- Notify wisely if URIs in messages have already been posted.
 
 [Hatena Bookmark]: http://b.hatena.ne.jp/
 
